@@ -6,7 +6,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `cloudwatch`
+# Component: `cloudwatch-logs`
 
 This component is responsible for creation of CloudWatch Log Streams and Log Groups.
 
