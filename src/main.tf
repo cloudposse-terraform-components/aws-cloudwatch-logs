@@ -12,7 +12,7 @@ data "aws_partition" "current" {
 
 module "logs" {
   source  = "cloudposse/cloudwatch-logs/aws"
-  version = "0.6.5"
+  version = "0.6.9"
 
   stream_names           = var.stream_names
   retention_in_days      = var.retention_in_days
