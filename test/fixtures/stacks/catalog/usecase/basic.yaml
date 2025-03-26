@@ -1,0 +1,12 @@
+components:
+  terraform:
+    cloudwatch-logs/basic:
+      metadata:
+        component: target
+      vars:
+        enabled: true
+        name: cloudwatch-logs
+        retention_in_days: 30
+        stream_names:
+          - app-1
+          - app-2
