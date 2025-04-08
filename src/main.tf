@@ -25,7 +25,7 @@ module "logs" {
 
 module "kms_key_logs" {
   source  = "cloudposse/kms-key/aws"
-  version = "0.12.1"
+  version = "0.12.2"
 
   description             = "KMS key for CloudWatch Logs"
   deletion_window_in_days = 10
