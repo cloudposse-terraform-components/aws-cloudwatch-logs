@@ -5,3 +5,4 @@ repository:
   description: This component is responsible for creation of CloudWatch Log Streams and Log Groups
   homepage: https://cloudposse.com/accelerate
   topics: terraform, terraform-component
+
