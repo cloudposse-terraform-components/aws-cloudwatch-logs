@@ -68,7 +68,7 @@ components:
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../account-map/modules/iam-roles | n/a |
-| <a name="module_kms_key_logs"></a> [kms\_key\_logs](#module\_kms\_key\_logs) | cloudposse/kms-key/aws | 0.12.1 |
+| <a name="module_kms_key_logs"></a> [kms\_key\_logs](#module\_kms\_key\_logs) | cloudposse/kms-key/aws | 0.12.2 |
 | <a name="module_logs"></a> [logs](#module\_logs) | cloudposse/cloudwatch-logs/aws | 0.6.9 |
 | <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
 
