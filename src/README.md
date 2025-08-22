@@ -9,7 +9,6 @@ tags:
 # Component: `cloudwatch-logs`
 
 This component is responsible for creation of CloudWatch Log Streams and Log Groups.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -30,7 +29,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -98,12 +100,17 @@ components:
 | <a name="output_role_arn"></a> [role\_arn](#output\_role\_arn) | ARN of role to assume |
 | <a name="output_role_name"></a> [role\_name](#output\_role\_name) | Name of role to assume |
 | <a name="output_stream_arns"></a> [stream\_arns](#output\_stream\_arns) | ARN of the log stream |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/cloudwatch-logs) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-cloudwatch-logs&utm_content=)
+
