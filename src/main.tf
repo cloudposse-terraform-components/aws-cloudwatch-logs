@@ -31,7 +31,7 @@ module "kms_key_logs" {
   deletion_window_in_days = 10
   enable_key_rotation     = true
   alias                   = "alias/${module.this.id}"
-  policy                  = join("", data.aws_iam_policy_document.kms.*.json)
+  policy                  = join("", data.aws_iam_policy_document.kms[*].json)
 
   context = module.this.context
 }
